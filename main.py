@@ -6,7 +6,7 @@ from PIL import Image
 from io import BytesIO
 import os
 
-BACKEND_URL = os.getenv("BACKEND_URL", "http://backend:8080")
+BACKEND_URL = os.getenv("BACKEND_URL", "https://motion-analysis-v2-backend-1028696503581.us-central1.run.app")
 
 st.set_page_config(page_title="Motion Tracker App", layout="wide")
 st.title("🎥 Motion Tracker with FastAPI Backend")
